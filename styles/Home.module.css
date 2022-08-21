@@ -1,5 +1,9 @@
 .container {
-  padding: 0 2rem;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 24rem auto;
+  grid-template-rows: 30vh 1fr;
+  grid-gap: 1rem;
 }
 
 .main {
