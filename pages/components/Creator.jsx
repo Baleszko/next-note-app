@@ -5,7 +5,7 @@ function Creator() {
   return (
     <>
       <section className={styles.creator}>
-        <h1>Creator test</h1>
+        <h1>Take a Note</h1>
         <Form></Form>
       </section>
     </>

@@ -5,6 +5,24 @@
   border-left: 1rem solid #fcd0a1;
   height: 10rem;
   min-height: 10rem;
+  box-shadow: 0.3rem 0.3rem 0.4rem #11111128;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  cursor: pointer;
+
+  /*Overflow and ...*/
   overflow: hidden;
-  /* text-overflow: ellipsis; */
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.card h2 {
+  margin-top: 0.7rem;
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: 0.5rem 0.5rem 0.2rem #11111160;
 }

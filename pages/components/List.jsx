@@ -8,10 +8,6 @@ function List() {
         <Card></Card>
         <Card></Card>
         <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
       </aside>
     </>
   );

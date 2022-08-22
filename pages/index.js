@@ -1,12 +1,14 @@
 import Head from "next/head";
-import Image from "next/image";
+import { useState } from "react";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 import List from "./components/List";
 import Creator from "./components/Creator";
 import Displayer from "./components/Displayer";
 
 export default function Home() {
+  const [title, setTitle] = useState();
+  const [body, setBody] = useState();
+
   return (
     <div className={styles.container}>
       <Head>

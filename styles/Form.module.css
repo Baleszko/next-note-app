@@ -1,0 +1,72 @@
+.form {
+}
+
+.title {
+  width: 100%;
+  border-radius: 1rem 0 0 1rem;
+  height: 2rem;
+  font-size: 1rem;
+  outline: none;
+  border: 0.13rem solid #afafaf;
+  padding: 0.5rem;
+  font-weight: 500;
+  background-color: #f7f7f7;
+  color: #383838;
+}
+
+.title:focus {
+  border: 0.13rem solid #f7f7f7;
+}
+
+.button {
+  all: unset;
+  box-sizing: border-box;
+  width: 7rem;
+  height: 2rem;
+  border: 0.13rem solid #9fa486;
+  background-color: #9fa486;
+  color: #f1f1f1;
+  text-align: center;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.button:hover {
+  background-color: #7f836b;
+  border: 0.05rem solid #7f836b;
+  cursor: pointer;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  height: 12rem;
+  resize: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 0.13rem solid #afafaf;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  background-color: #f7f7f7;
+  color: #383838;
+}
+
+.text:focus {
+  border: 0.13rem solid #f7f7f7;
+}
+.titleRow {
+  display: flex;
+  width: 100%;
+}
+
+.text::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.text::-webkit-scrollbar-thumb {
+  background-color: #6b6b6bb6;
+  border-radius: 0.5rem;
+}
