@@ -5,4 +5,5 @@ export default async function getNotes(req, res) {
   await connectDb();
   const note = await noteModel.find();
   res.json({ note });
+  console.log(note);
 }
