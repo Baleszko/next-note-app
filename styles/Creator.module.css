@@ -1,3 +1,6 @@
 .creator {
   grid-column: 2;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.02rem solid #afafaf;
+  margin-right: 1.5rem;
 }

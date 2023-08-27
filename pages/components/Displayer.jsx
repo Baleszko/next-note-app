@@ -1,10 +1,11 @@
 import styles from "../../styles/Displayer.module.css";
 
-function Displayer() {
+function Displayer({ title, body }) {
   return (
     <>
       <section className={styles.displayer}>
-        <h1>Displayer test</h1>
+        <h1>{title}</h1>
+        <p>{body}</p>
       </section>
     </>
   );
